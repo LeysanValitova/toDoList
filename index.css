@@ -1,0 +1,49 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h1{
+    text-align: center;
+    text-decoration: solid;
+    color: hotpink;
+}
+
+body {
+    background-color: lightpink;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border: 2px solid hotpink;
+    border-radius: 5px;
+    background-color: lightpink;
+    color: deeppink;
+}
+
+ul, li {
+    list-style-type: none;
+    text-decoration: none;
+    color: deeppink;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.active {
+text-decoration: line-through;
+color: ghostwhite;
+}
