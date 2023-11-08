@@ -18,9 +18,11 @@ document.querySelector('.btn').onclick = createTask;
 
 
 // стили для нажатого элемента задач
-listt.addEventListener('click', function checkTask() {
-    if (evt.target.tagName === 'LI') {
-        evt.target.classList.toggle('active');
+listt.addEventListener('click', function (event) {
+    let targetE1 = event.target;
+    
+    if (targetE1.tagName === 'LI') {
+        targetE1.classList.toggle('active');
     }
 })
 
